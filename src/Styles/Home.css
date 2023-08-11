@@ -1,0 +1,148 @@
+body{
+    background-color: #e3e6e6;
+}
+.main-product-first{
+    height:900px;
+    position: absolute;
+    z-index: 99;
+    width:100%;
+    margin-top: -350px;
+    background-image: linear-gradient(transparent,#e3e6e6, #e3e6e6, #e3e6e6 ,#e3e6e6);
+}
+.main-product-second{
+    min-height:380px;
+    width:100%;
+}
+.carousal{
+    height:100%;
+    z-index:99;
+}
+.main-single-box{
+    width:23%;
+   height:48%;
+    float:left;
+    padding:12px;
+    margin:0% 1% 1% 1%;
+    background-color: #fff;
+}
+.image-part-main{
+    width:100%;
+    height:75%;
+    margin-bottom: 9px;;
+}
+.single-image-part{
+    width:44%;
+    height:43%;
+    float:left;
+    margin:3%;
+    cursor:pointer;
+    overflow:hidden;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.single-image-part img{
+    transform:scale(1.2);
+}
+.single-image-part:hover{
+    box-shadow: 0px 0px 10px #000;
+}
+figcaption{
+    padding-left: 4px;
+}
+ a{
+    color:#288798;
+    text-decoration: none;
+}
+
+
+/* horizontal div start */
+.scrolling-wrapper {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    background-color: #fff;
+  
+    .card {
+      display: inline-block;
+      margin: 1.5%;
+      border:none;
+      cursor:pointer;
+    }
+
+
+  }
+  .scrolling-wrapper:hover .btnToggle{
+    display: inline-block;
+  }
+
+
+.side-scrolling-img-part{
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side-scrolling-detail-part{
+    height:26%;
+    margin-top:10px;
+    width:100%;
+}
+
+.main-scrolling{
+margin:0px 15px;
+height:23rem;
+background-color: #fff;
+padding:30px 25px;
+}
+
+ 
+  .scrolling-btn-left{
+    left:0;
+    margin:5% 0px 0px 15px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 5px 0px 10px #000;
+  }
+  .scrolling-btn-right{
+    right:0;
+    margin:5% 15px 0% 0%;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: -5px 0px 10px #000;
+  }
+
+  .btnToggle{
+    display:none;
+    z-index:99;
+    position:absolute;
+    height:110px;
+    border:none;
+    outline:none;
+    font-size: 30px;
+    width:50px;
+    background:rgba(255, 253, 253, 0.4);
+    animation: scrollingButton 0.5s ease-in-out;
+  }
+  .btnToggle:hover{
+    background:rgba(255, 253, 253, 0.9);
+  }
+  @keyframes scrollingButton{
+    from{
+        opacity:0%;
+    }
+    to{
+        opacity:100%;
+    }
+  }
+  
+  .advertise{
+    height:auto;
+    width:100%;
+
+  }
+
+
+
+
+
+  

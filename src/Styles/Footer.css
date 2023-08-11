@@ -1,0 +1,31 @@
+.footer-main-login-main{
+    height:250px;
+    width:100%;
+    background:#fff;
+}
+.login-footer-page{
+    background-color: #ffcc4a;
+    width:50px;
+    border:1px solid #f3b312 ;
+    outline:none;
+    width:280px;
+    border-radius: 5px;
+    height: 30px;
+}
+.main-footer{
+    height:500px;  
+    background-color: #232f3e;
+}
+.main-footer table{
+padding-top:30px;
+width:1100px;
+}
+.main-footer>table>tr>td{
+    padding:3px;
+    cursor:pointer;
+    font-weight: 600;
+    color:rgb(213, 207, 207);
+}
+.main-footer>table>tr>td:hover{
+    color:#f3b312;
+}

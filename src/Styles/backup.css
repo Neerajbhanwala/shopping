@@ -1,0 +1,152 @@
+/* .side-scrolling-img-part{
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side-scrolling-detail-part{
+    height:26%;
+    margin-top:10px;
+    width:100%;
+}
+
+.main-scrolling{
+margin:0px 15px;
+height:23rem;
+background-color: #fff;
+padding:30px 25px;
+} */
+
+
+
+
+
+
+{/* <div className=' main-scrolling'> */}
+{/* <div className="mb-2"><b style={{fontSize:'25px'}}>Today's Deals</b> */}
+{/* <a href="#ddf">See all deals</a></div> */}
+
+
+/* card */
+
+  {/* <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/31XCRJqeTjL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 86% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Compact Earbuds from Urbn at 999 la…</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/31G-ftiDlPL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 73% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Branded Suitcase, Backpacks & Duffl…</p>
+        </div>
+    </div>
+  </div>
+  
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/41xnfQ6+TCL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 38% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Best selling vivo smartphones…</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 45% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Mens's footwear: Bata, Hush…</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 45% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Mens's footwear: Bata, Hush…</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 45% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Mens's footwear: Bata, Hush…</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 45% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Mens's footwear: Bata, Hush…</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 45% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Mens's footwear: Bata, Hush…</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 45% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Mens's footwear: Bata, Hush…</p>
+        </div>
+    </div>
+  </div>
+  
+
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 45% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Mens's footwear: Bata, Hush…</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div className='side-scrolling-img-part'>
+        <img src="https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_SY200_.jpg" alt="ds" height="100%" />
+        <div className='side-scrolling-detail-part'>
+            <span className='bg-danger ps-2 p-1 pe-2 text-white'style={{fontSize:'13px', fontWeight:'bold'}}>Up to 45% off</span>
+            <span className='text-danger ps-1' style={{fontSize:'14px', fontWeight:'bold'}}>Deal of the day</span>
+            <p style={{fontSize:'11px', fontWeight:'bold'}}>Mens's footwear: Bata, Hush…</p>
+        </div>
+    </div>
+  </div> */}

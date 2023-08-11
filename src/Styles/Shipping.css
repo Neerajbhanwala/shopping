@@ -1,0 +1,89 @@
+.main-popup-address {
+    height: 100vh;
+    width: 100vw;
+    z-index: 200;
+    top:0;
+    position: absolute;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.7);
+  }
+  .main-popup-address .mid-box-address {
+    background-color: white;
+    height: auto;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: locationPopUps 0.3s linear;
+  }
+  @keyframes locationPopUps {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+  .main-popup-address .mid-box-address .header-address {
+    height: 20%;
+    background-color: #f0f2f2;
+    border-bottom: 1px solid rgb(209, 201, 201);
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .header-body-address {
+    color: rgb(104, 101, 101);
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+
+
+
+
+
+
+  .main-popup-payment {
+    height: 100vh;
+    width: 100vw;
+    z-index: 200;
+    top:0;
+    position: absolute;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.7);
+  }
+  .main-popup-payment .mid-box-payment {
+    background-color: white;
+    height: auto;
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: locationPopUpss 0.3s linear;
+  }
+  @keyframes locationPopUpss {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+  .main-popup-payment .mid-box-payment .header-payment {
+    height: 20%;
+    background-color: #f0f2f2;
+    border-bottom: 1px solid rgb(209, 201, 201);
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .header-body-payment {
+    color: rgb(104, 101, 101);
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  
