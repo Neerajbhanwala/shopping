@@ -59,6 +59,8 @@ function SignIn() {
           icon: 'error',
           title: 'Oops...',
           text: 'Mobile / Email already exists',
+          showConfirmButton: false,
+          timer: 2000,
         })
       }
     } catch (error) {
